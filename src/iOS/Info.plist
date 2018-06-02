@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>IRLBR</string>
+	<string>irlbr</string>
 	<key>CFBundleName</key>
-	<string>IRLBR</string>
+	<string>irlbr</string>
 	<key>CFBundleIdentifier</key>
-	<string>io.willich.IRLBR</string>
+	<string>io.willich.irlbr</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

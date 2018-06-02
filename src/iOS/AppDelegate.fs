@@ -5,14 +5,12 @@ open UIKit
 open Foundation
 open Xamarin.Forms
 open Xamarin.Forms.Platform.iOS
-open Microsoft.WindowsAzure.MobileServices
 
 [<Register ("AppDelegate")>]
 type AppDelegate () =
     inherit FormsApplicationDelegate ()
 
     override this.FinishedLaunching (app, options) =
-        do CurrentPlatform.Init()
         Forms.Init()
         this.LoadApplication (new IRLBR.App())
         base.FinishedLaunching(app, options)

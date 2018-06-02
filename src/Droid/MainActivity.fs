@@ -9,7 +9,6 @@ open Android.Views
 open Android.Widget
 open Android.OS
 open Xamarin.Forms.Platform.Android
-open Microsoft.WindowsAzure.MobileServices
 
 type Resources = IRLBR.Droid.Resource
 
@@ -22,8 +21,7 @@ type MainActivity() =
         FormsAppCompatActivity.ToolbarResource <- Resources.Layout.Toolbar
 
         base.OnCreate (bundle)
-        do CurrentPlatform.Init()
-        
+
         Xamarin.Forms.Forms.Init (this, bundle)
 
         this.LoadApplication (new IRLBR.App ())
