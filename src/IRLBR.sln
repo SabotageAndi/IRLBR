@@ -1,6 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{E5159EA7-FE14-4DDD-9C15-ED8454124FF0}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
 Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "IRLBR.iOS", "iOS\IRLBR.iOS.fsproj", "{8999461E-3041-4BF0-8068-C96A6FB39574}"
 EndProject
 Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "IRLBR.Droid", "Droid\IRLBR.Droid.fsproj", "{A4528311-97CC-4F0B-A2CE-BA6789B20EB6}"
