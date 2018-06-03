@@ -419,11 +419,11 @@ NUGET
       Microsoft.NETCore.Platforms (>= 1.1) - restriction: || (&& (< monoandroid) (< monotouch) (< net451) (>= netstandard1.2) (< win81) (< wpa81) (< xamarinios) (< xamarinmac) (< xamarintvos) (< xamarinwatchos)) (< portable-net451+win81+wpa81)
       Microsoft.NETCore.Targets (>= 1.1) - restriction: || (&& (< monoandroid) (< monotouch) (< net451) (>= netstandard1.2) (< win81) (< wpa81) (< xamarinios) (< xamarinmac) (< xamarintvos) (< xamarinwatchos)) (< portable-net451+win81+wpa81)
       System.Runtime (>= 4.3) - restriction: || (&& (< monoandroid) (< monotouch) (< net451) (>= netstandard1.2) (< win81) (< wpa81) (< xamarinios) (< xamarinmac) (< xamarintvos) (< xamarinwatchos)) (< portable-net451+win81+wpa81)
-    Xamarin.Android.Arch.Core.Common (1.0) - restriction: || (== monoandroid8.1) (&& (== netstandard2.0) (>= monoandroid8.1)) (&& (== xamarinios) (>= monoandroid8.1))
+    Xamarin.Android.Arch.Core.Common (1.0) - restriction: >= monoandroid8.1
       Xamarin.Android.Support.Annotations (>= 26.1) - restriction: >= monoandroid8.0
-    Xamarin.Android.Arch.Lifecycle.Common (1.0.3) - restriction: || (== monoandroid8.1) (&& (== netstandard2.0) (>= monoandroid8.1)) (&& (== xamarinios) (>= monoandroid8.1))
+    Xamarin.Android.Arch.Lifecycle.Common (1.0.3) - restriction: >= monoandroid8.1
       Xamarin.Android.Support.Annotations (>= 27.0.2) - restriction: >= monoandroid8.0
-    Xamarin.Android.Arch.Lifecycle.Runtime (1.0.3) - restriction: || (== monoandroid8.1) (&& (== netstandard2.0) (>= monoandroid8.1)) (&& (== xamarinios) (>= monoandroid8.1))
+    Xamarin.Android.Arch.Lifecycle.Runtime (1.0.3) - restriction: >= monoandroid8.1
       Xamarin.Android.Arch.Core.Common (>= 1.0) - restriction: >= monoandroid8.0
       Xamarin.Android.Arch.Lifecycle.Common (>= 1.0.3) - restriction: >= monoandroid8.0
       Xamarin.Android.Support.Annotations (>= 27.0.2) - restriction: >= monoandroid8.0
@@ -431,12 +431,14 @@ NUGET
     Xamarin.Android.Support.Animated.Vector.Drawable (27.0.2) - restriction: || (== monoandroid8.1) (&& (== netstandard2.0) (>= monoandroid8.1)) (&& (== xamarinios) (>= monoandroid8.1))
       Xamarin.Android.Support.Vector.Drawable (27.0.2) - restriction: >= monoandroid8.1
     Xamarin.Android.Support.Annotations (27.0.2) - restriction: || (== monoandroid8.1) (&& (== netstandard2.0) (>= monoandroid8.1)) (&& (== xamarinios) (>= monoandroid8.1))
-    Xamarin.Android.Support.Compat (27.0.2) - restriction: || (== monoandroid8.1) (&& (== netstandard2.0) (>= monoandroid8.1)) (&& (== xamarinios) (>= monoandroid8.1))
+    Xamarin.Android.Support.Compat (27.0.2) - restriction: >= monoandroid8.1
       Xamarin.Android.Arch.Lifecycle.Runtime (>= 1.0.3) - restriction: >= monoandroid8.1
       Xamarin.Android.Support.Annotations (27.0.2) - restriction: >= monoandroid8.1
     Xamarin.Android.Support.Core.UI (27.0.2) - restriction: || (== monoandroid8.1) (&& (== netstandard2.0) (>= monoandroid8.1)) (&& (== xamarinios) (>= monoandroid8.1))
       Xamarin.Android.Support.Compat (27.0.2) - restriction: >= monoandroid8.1
     Xamarin.Android.Support.Core.Utils (27.0.2) - restriction: || (== monoandroid8.1) (&& (== netstandard2.0) (>= monoandroid8.1)) (&& (== xamarinios) (>= monoandroid8.1))
+      Xamarin.Android.Support.Compat (27.0.2) - restriction: >= monoandroid8.1
+    Xamarin.Android.Support.CustomTabs (27.0.2) - restriction: >= monoandroid
       Xamarin.Android.Support.Compat (27.0.2) - restriction: >= monoandroid8.1
     Xamarin.Android.Support.Design (27.0.2) - restriction: || (== monoandroid8.1) (&& (== netstandard2.0) (>= monoandroid7.1)) (&& (== xamarinios) (>= monoandroid7.1))
       Xamarin.Android.Support.Compat (27.0.2) - restriction: >= monoandroid8.1
@@ -486,6 +488,9 @@ NUGET
       Xamarin.Android.Support.Core.UI (27.0.2) - restriction: >= monoandroid8.1
     Xamarin.Android.Support.Vector.Drawable (27.0.2) - restriction: || (== monoandroid8.1) (&& (== netstandard2.0) (>= monoandroid8.1)) (&& (== xamarinios) (>= monoandroid8.1))
       Xamarin.Android.Support.Compat (27.0.2) - restriction: >= monoandroid8.1
+    Xamarin.Auth (1.6.0.2)
+      Xamarin.Android.Support.CustomTabs (>= 23.3) - restriction: || (&& (>= monoandroid) (< monoandroid7.0)) (&& (>= monoandroid7.0) (< monoandroid7.1))
+      Xamarin.Android.Support.CustomTabs (>= 25.4.0.2) - restriction: >= monoandroid7.1
     Xamarin.Forms (3.0.0.482510) - restriction: || (== monoandroid8.1) (== netstandard2.0) (== xamarinios)
       Xamarin.Android.Support.Design (>= 25.4.0.2) - restriction: >= monoandroid7.1
       Xamarin.Android.Support.v4 (>= 25.4.0.2) - restriction: >= monoandroid7.1
