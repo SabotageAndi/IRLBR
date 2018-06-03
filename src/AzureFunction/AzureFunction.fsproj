@@ -15,7 +15,7 @@
       <CopyToPublishDirectory>Never</CopyToPublishDirectory>
     </None>
 
-    <Compile Include="Authenticate/HttpTrigger.fs" />
+    <Compile Include="Authenticate/Authentificate.fs" />
   </ItemGroup>
 
   <Import Project="..\..\.paket\Paket.Restore.targets" />

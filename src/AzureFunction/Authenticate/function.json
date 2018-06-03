@@ -8,6 +8,6 @@
         "route": "paket"
       }
     ],
-    "scriptFile": "../bin/Debug/netstandard2.0/bin/OAuthAuthentification.dll",
-    "entryPoint": "OAuthAuthentification.PaketHttp.run"
+    "scriptFile": "../bin/Debug/netstandard2.0/bin/AzureFunction.dll",
+    "entryPoint": "IRLBR.Authentificate.run"
   }

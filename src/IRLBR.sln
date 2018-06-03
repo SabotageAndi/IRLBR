@@ -12,7 +12,7 @@ Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "IRLBR.Droid", "Droid\IRLBR.
 EndProject
 Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "IRLBR", "IRLBR\IRLBR.fsproj", "{E37E7130-F021-42D2-8EF8-FB1AFDCA23AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuthAuthentification", "OAuthAuthentification\OAuthAuthentification.fsproj", "{C2F0A66E-845A-4A31-AD1A-E40FEA91A95C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunction", "AzureFunction\AzureFunction.fsproj", "{C2F0A66E-845A-4A31-AD1A-E40FEA91A95C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
