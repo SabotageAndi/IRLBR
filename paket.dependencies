@@ -1,5 +1,8 @@
 source https://www.nuget.org/api/v2
+
 nuget FSharp.Core
 nuget Xamarin.Forms framework: MonoAndroid8.1,netstandard2.0,xamarinios
 nuget Xamarin.Android.FSharp.ResourceProvider framework:monoandroid8.1
 nuget Xamarin.Auth
+nuget Microsoft.NET.Sdk.Functions framework: >= netstandard2.0
+nuget Microsoft.AspNetCore.Mvc.Core < 2.1 framework: >= netstandard2.0

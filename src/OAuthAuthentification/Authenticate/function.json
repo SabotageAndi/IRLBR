@@ -1,0 +1,13 @@
+{
+    "bindings": [
+      {
+        "type": "httpTrigger",
+        "methods": ["get"],
+        "authLevel": "anonymous",
+        "name": "req",
+        "route": "paket"
+      }
+    ],
+    "scriptFile": "../bin/Debug/netstandard2.0/bin/OAuthAuthentification.dll",
+    "entryPoint": "OAuthAuthentification.PaketHttp.run"
+  }

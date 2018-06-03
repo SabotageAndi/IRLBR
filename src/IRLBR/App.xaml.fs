@@ -17,6 +17,7 @@ type App() =
 
 
     override this.OnStart() =
+        let redirectUri = ""
         let authenticator = new OAuth2Authenticator(
                                 Constants.clientId,
                                 null,
